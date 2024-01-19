@@ -1,0 +1,23 @@
+.main {
+  @apply justify-start;
+}
+
+.contSaveButton {
+  @apply w-[400px] mx-auto mt-5 text-right flex justify-between items-center;
+}
+
+.contForm {
+  @apply w-[400px] mx-auto mt-5 bg-gray-300 px-10 py-3 rounded-xl;
+}
+
+.contForm h3 {
+  @apply text-center mb-2;
+}
+
+.contForm button {
+  @apply mt-5;
+}
+
+.contForm input {
+  @apply w-full h-10 border-2 border-gray-300 rounded-md px-2 my-2;
+}

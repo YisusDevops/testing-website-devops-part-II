@@ -1,0 +1,11 @@
+.main {
+  @apply my-10 flex justify-between items-center max-w-[1400px] mx-auto px-4;
+}
+
+.contSlider {
+  @apply flex items-center;
+}
+
+.slider {
+  @apply w-[200px] flex items-center pl-5;
+}

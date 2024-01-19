@@ -1,0 +1,23 @@
+.main {
+  @apply px-5 py-3;
+}
+
+.contHeader {
+  @apply mb-3;
+}
+.contHeader div {
+  @apply text-left last:text-right;
+}
+
+.contImage {
+  @apply w-full bg-[#aaf4ed] flex justify-center;
+}
+
+.contDetails {
+  outline: 3px solid rgba(128, 128, 128, 0.57);
+  @apply mt-5 border-2 text-center py-2;
+}
+
+.contDescription {
+  @apply mt-10;
+}
